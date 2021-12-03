@@ -18,12 +18,21 @@ div.header-cont {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 10px;
 }
 div.header-cont img#logo {
   height: 88px;
 }
 div.header-cont img#icono-compra {
   width: 28px;
+}
+input[type="search"] {
+  width: 400px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
 }
 /*Termina el header*/
 /*Contenedor principal*/
@@ -34,3 +43,6 @@ div.img-cont img {
   width: 100%;
 }
 /*Edición de imagen terminada*/
+div.sect-pag {
+  font-weight: 1000;
+}
