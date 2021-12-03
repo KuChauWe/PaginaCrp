@@ -1,5 +1,32 @@
 @import url("http://fonts.googleapis.com/css?family=Droid+Sans");
 * {
-  font-family: "Droid Sans", serif;
-  color: green;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+/*Termina el header*/
+header {
+  position: absolute;
+  width: 100%;
+  background: #ebeae7;
+}
+div.header-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div.header-cont img#logo {
+  height: 88px;
+}
+div.header-cont img#icono-compra {
+  width: 28px;
+}
+/*Termina el header*/
+/*Contenedor principal*/
+div.main-cont {
+  width: 100%;
+}
+div.img-cont img {
+  width: 100%;
+}
+/*Edición de imagen terminada*/
