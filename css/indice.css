@@ -1,14 +1,18 @@
-@import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Overpass", sans-serif;
+  font-weight: 1000;
 }
 /*Termina el header*/
 header {
   position: absolute;
   width: 100%;
   background: #ebeae7;
+  text-align: center;
+  font-size: 25px;
 }
 div.header-cont {
   display: flex;
