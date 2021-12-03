@@ -16,9 +16,10 @@ header {
 }
 div.header-cont {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 div.header-cont img#logo {
   height: 88px;
@@ -53,39 +54,43 @@ div.sect-pag h1 {
   font-size: 60px;
   color: #32391b;
   text-align: center;
-  font-weight: 800;
+  font-weight: 700;
 }
-div.sect-pag p {
+div.sect-pag p.text-prod {
   font-family: "Overpass Thin 100", sans-serif;
-  text-align: center;
+  text-align: justify;
   font-size: 20px;
+  font-weight: 600;
 }
 div.main-cont a {
   font-family: "Overpass Thin 100", sans-serif;
   font-size: 20px;
 }
 div.flex-div {
-  width: 60%;
+  width: 59%;
 }
 div.prod-cont {
   display: flex;
   justify-content: center;
 }
 div.categ-cont {
-  margin-block: 1.5rem;
+  margin-block: 3.5rem;
 }
 /*Conjunto de cuadros de producto*/
 div.flex-cont {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 /*Cuadro de el producto (no es el conjunto)*/
 section {
   text-align: center;
+  font-weight: 600;
+  margin-block: 10px;
 }
 section.text-cont p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Overpass Thin 100", sans-serif;
+  margin-bottom: 5px;
 }
 section.text-cont p.s-sp {
   font-size: 18px;
@@ -105,6 +110,7 @@ section.prod-img img {
   max-width: 199px;
   min-width: 198px;
 }
+
 /*Termina contenido*/
 /*Empieza footer*/
 footer {
@@ -117,13 +123,16 @@ footer {
   justify-content: center;
   padding-block: 48px;
 }
+footer p {
+  text-decoration: solid 2px underline;
+}
 footer img {
   height: 95px;
 }
 footer div {
   font-family: "Overpass", sans-serif; /*Hacer video-tutorial*/
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   color: #b0967c;
 }
 /*Scrollbar*/
@@ -155,4 +164,7 @@ a:-webkit-any-link:hover {
   text-decoration: underline;
   cursor: pointer;
   color: rgb(0, 0, 0);
+}
+a {
+  cursor: pointer;
 }
