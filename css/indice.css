@@ -3,7 +3,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  transition: 600ms;
 }
 /*Termina el header*/
 header {
@@ -142,7 +141,18 @@ body::-webkit-scrollbar-thumb {
   border: none;
 }
 
-.content {
+.body {
   overflow-y: scroll;
   scroll-behavior: smooth;
+}
+a:-webkit-any-link {
+  text-decoration: #ebeae7;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: 1000ms;
+}
+a:-webkit-any-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
 }
