@@ -110,6 +110,10 @@ section.text-cont input[type="button"] {
   background: #dec5c4;
   font-weight: 600;
   cursor: pointer;
+  transition: 600ms;
+}
+section.text-cont input[type="button"]:hover {
+  background: #b0967c;
 }
 /*con los anteriores 2 basta*/
 section.prod-img {
@@ -150,7 +154,7 @@ footer div {
 }
 /*Scrollbar*/
 body::-webkit-scrollbar {
-  width: 5px; /* Grosor de la scrollbar */
+  width: 10px; /* Grosor de la scrollbar */
 }
 
 body::-webkit-scrollbar-track {
@@ -158,7 +162,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(78, 78, 78); /* Color del objeto en el que da click */
+  background-color: #215a43; /* Color del objeto en el que da click */
   border-radius: 100px; /* Bordes de el objeto anterior */
   border: none;
 }
