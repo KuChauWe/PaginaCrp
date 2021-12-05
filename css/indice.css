@@ -79,7 +79,7 @@ div.categ-cont {
 /*Conjunto de cuadros de producto*/
 div.flex-cont {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /*Cuadro de el producto (no es el conjunto)*/
 section {
@@ -115,11 +115,14 @@ section.text-cont input[type="button"] {
 section.prod-img {
   border: solid 1px #a03d3e;
   min-height: 198px;
-  min-width: 198px;
+  max-width: 199px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
 }
 section.prod-img img {
-  max-height: 199px;
-  max-width: 199px;
+  max-height: 150px;
 }
 /*Termina contenido*/
 /*Empieza footer*/
