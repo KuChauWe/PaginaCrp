@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*Empieza el header*/
+header {
+  /*position: absolute;puede ser fixed*/
+  width: 100%;
+  background: #ebeae7;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Overpass", sans-serif; /*Hacer video-tutorial*/
+  font-weight: 1000;
+}
+div.header-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+div.header-cont img#logo {
+  height: 88px;
+}
+div.header-cont img#icono-compra {
+  width: 28px;
+}
+input[type="search"] {
+  width: 400px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+/*Termina el header*/
+/*Empieza el cuerpo*/
+div.main-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 119px;
+  font-family: "Overpass", sans-serif;
+}
+div.title-cont {
+  margin-bottom: 80px;
+  color: #375243;
+}
+section.prod-img {
+  border: solid 1px #a03d3e;
+  min-height: 198px;
+  min-width: 198px;
+  /*Repetí todo esto para que el cuadro no cambie con el tamaño de la tabla.*/
+}
+section.prod-img img {
+  max-height: 199px;
+  min-height: 198px;
+  max-width: 199px;
+  min-width: 198px;
+}
+tr td.flex-td {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+tr th h1,
+tr td h1 {
+  margin-inline: 40px;
+}
+tr td section {
+  margin-right: 40px;
+}
+td#suma-p h1 {
+  margin-top: 100px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+/*Termina el cuerpo*/
+/*Lo de abajo tiene que estar en TODAS las páginas, para que se vea bonito*/
+body::-webkit-scrollbar {
+  width: 5px; /* Grosor de la scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: none; /* Color del fondo */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(78, 78, 78); /* Color del objeto en el que da click */
+  border-radius: 100px; /* Bordes de el objeto anterior */
+  border: none;
+}
+.body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+a:-webkit-any-link {
+  text-decoration: #ebeae7;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: 1000ms;
+}
+a:-webkit-any-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+a {
+  cursor: pointer;
+}
+td h1 {
+  text-align: center;
+}
+th h1#producto {
+  text-align: left;
+  margin-left: -2px;
+}
+div#sp-py {
+  display: none;
+}
+/*
+table {
+  display: none;
+}
+div#sp-py h1 {
+  text-align: center;
+  font-size: 60px;
+}
+*/

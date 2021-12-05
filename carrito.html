@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="css/carrito.css">
+</head>
+<body>
+    <header>
+        <div class="header-cont">
+            <div class="header-item"><a href="index.html"><img src="img/LOGO.png" id="logo"></a></div>
+            <div class="header-item"><a href="#limpiadores">LIMPIADORES</a></div>
+            <div class="header-item"><a href="#humectante">HUMECTANTE/HIDRATANTE</a></div>
+            <div class="header-item"><a href="#protectorSolar">PROTECTOR SOLAR</a></div>
+            <div class="header-item"><input type="search" placeholder="¿QUÉ ESTAS BUSCANDO?" class="memuero"></div>
+            <div class="header-item"><a>USUARIO</a></div>
+            <div class="header-item"><a href="carrito.html"><img src="img/IconoCompra.png" id="icono-compra"></a></div>
+        </div>
+    </header>
+    <div class="main-cont">
+        <div class="flex-sup">
+            <div class="title-cont">
+                <h1>CARRITO DE COMPRA:</h1>
+            </div>
+            <div class="table-cont">
+                <table>
+                    <thead>
+                      <tr>
+                        <th><h1 id="producto">PRODUCTO</h1></th>
+                        <th><h1>CANTIDAD</h1></th>
+                        <th><h1>PRECIO</h1></th>
+                        <th><h1>TOTAL</h1></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="prod-cont"><!--Es la fila de un producto, se repite desde aquí.-->
+                        <td class="flex-td">
+                            <section class="prod-img"><img src="img/ImagenEjemplo.png"></section>
+                            <h2>Aquí va el nombre del producto.</h2>
+                        </td>
+                        <td><h1>$</h1></td>
+                        <td><h1>$</h1></td>
+                        <td><h1>$</h1></td>
+                      </tr>
+                      <tr class="prod-cont"><!--Es la fila de un producto, se repite desde aquí.-->
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="suma-p"><h1>TOTAL:$$$</h1></td>
+                      </tr>
+                    </tbody>
+                </table>
+                <div id="sp-py">
+                    <h1>No hay objetos aquí</h1>
+                    <h1>!Agrega alguno!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

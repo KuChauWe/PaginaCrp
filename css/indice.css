@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
 }
-/*Termina el header*/
+/*Empieza el header*/
 header {
   /*position: absolute;puede ser fixed*/
   width: 100%;
@@ -32,7 +32,7 @@ input[type="search"] {
   height: 40px;
   border: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   padding: 5px;
 }
 /*Termina el header*/
@@ -95,22 +95,32 @@ section.text-cont p {
 section.text-cont p.s-sp {
   font-size: 18px;
 }
+/*botones*/
 section.text-cont a {
   font-size: 11px;
   width: 133px;
   padding: 4px;
   background: #dec5c4;
 }
+section.text-cont input[type="button"] {
+  border: none;
+  font-size: 11px;
+  width: 133px;
+  padding: 4px;
+  background: #dec5c4;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*con los anteriores 2 basta*/
 section.prod-img {
   border: solid 1px #a03d3e;
+  min-height: 198px;
+  min-width: 198px;
 }
 section.prod-img img {
   max-height: 199px;
-  min-height: 198px;
   max-width: 199px;
-  min-width: 198px;
 }
-
 /*Termina contenido*/
 /*Empieza footer*/
 footer {
